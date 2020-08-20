@@ -508,3 +508,8 @@ body {
   .button:hover {
     color: #FFF;
     background: #6D4AE8; }
+
+.survey {
+  max-width: 35rem;
+  height: 100%;
+  margin: 4rem auto; }
