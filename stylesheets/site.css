@@ -487,10 +487,19 @@ body {
   .cover {
     margin-left: 6rem; } }
 
+.home-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto; }
+
 .separator {
   width: 100%;
   border-bottom: 1px solid #FFF;
-  opacity: .4; }
+  opacity: .4;
+  margin-top: 3rem; }
 
 .release {
   text-transform: uppercase; }
@@ -504,8 +513,7 @@ body {
   text-align: center;
   padding: .6rem 1.5rem .5rem 1.5rem;
   font-weight: 500;
-  color: #6D4AE8;
-  margin-bottom: 3rem; }
+  color: #6D4AE8; }
   .button:hover {
     color: #FFF;
     background: #6D4AE8; }
@@ -514,3 +522,40 @@ body {
   max-width: 35rem;
   height: 100%;
   margin: 4rem auto; }
+
+.mc-field-group {
+  display: inline;
+  float: left; }
+
+.success-message {
+  color: #FFF; }
+
+.error-message {
+  color: #F67CF9;
+  display: inline-block; }
+
+#mc_embed_signup_scroll {
+  margin-bottom: .5rem; }
+
+input {
+  border-radius: 3px;
+  border: 0;
+  padding: .39rem .4rem .39rem .4rem;
+  display: inline; }
+  input:focus {
+    outline: 0; }
+
+input[type=email] {
+  width: 14rem; }
+
+input[type=submit] {
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  margin-left: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 0; }
+  @media (min-width: 30rem) {
+    input[type=submit] {
+      margin-top: 0; } }
+  input[type=submit]:hover {
+    cursor: pointer; }
