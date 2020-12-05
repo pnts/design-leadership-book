@@ -6,8 +6,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
+    <meta name="description" content="<%= current_page.data.description %>" />
+    <meta name="keywords" content="<%= current_page.data.keywords %>" />
     <title><%= current_page.data.title || "/// Design Leadership: Your First 90 Days" %></title>
-    <script src="https://cdn.usefathom.com/script.js" site="MTCAGNZD" defer></script>
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6543216/6977192/css/fonts.css" />
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
